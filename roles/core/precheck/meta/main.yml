@@ -19,4 +19,4 @@ galaxy_info:
     - gpfs
 
 dependencies:
- - common
+  - ibm-gpfs-infra/ibm-gpfs-infra/roles/core/common
