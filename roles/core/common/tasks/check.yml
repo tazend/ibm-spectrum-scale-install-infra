@@ -78,6 +78,7 @@
   register: scale_daemon_procs
   changed_when: false
   failed_when: false
+  check_mode: no
 
 - name: check | Check if daemon is running
   set_fact:
